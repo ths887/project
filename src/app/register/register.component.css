@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+}
+h5{
+    color: black;
+}
+.left{
+    background-color: rgba(177, 211, 241, 0.568);
+    width: 45%;
+    height: 450px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}

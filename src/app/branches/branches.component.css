@@ -1,0 +1,35 @@
+.example-card {
+    max-width: 400px;
+
+  }
+.content{
+      background-color: rgb(233, 199, 138);
+      display: flex;
+  }
+.mat-icon{
+      margin-left: 450px;
+  }
+.content h3{
+    color: rgb(8, 66, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+ }
+ .main{
+      flex-direction: row;
+      display: flex;
+  }
+  .container{
+      background-color: rgb(240, 235, 235);
+      height: auto;
+      width: 70%;
+      margin-top: 20px;
+      height: 200px;
+     }
+     .container h4{
+       color: rgb(95, 49, 3);
+     }
+.agm-map {
+  height: 300px;
+}
+  
+  

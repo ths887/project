@@ -1,0 +1,90 @@
+<div class="content">
+    <h3>We have three branches in Tamil Nadu distric. Each school having hostel.</h3><br>
+    <mat-icon  aria-hidden="false" aria-label="Example home icon">school</mat-icon>
+
+</div>
+<div class=" main">
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>AVATAR SCHOOL</mat-card-title>
+      <mat-card-subtitle>COIMBATORE</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/school.jpg" alt="Photo of a school">
+    <mat-card-content>
+      <p>
+        Large and ventilated classrooms. Nurturing Winners & Achievers Since The Last 15 Years.
+        Trusted by 110000 parent. Admission enquiry open. 
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+    </mat-card-actions>
+  </mat-card>
+<div class="container">
+  <div class="row">
+      <div class="col-md-10 col-sm-9"><br><br>
+          <h4 class="topic">Admission started 2020</h4>
+          <h5>location </h5>
+          <div class="row">
+              <div class="col-xs-9"><br>
+                  <h6><span class="label label-default">97thfloor.com</span></h6><h4>
+                  <small style="font-family: sans-serif;" class="text-muted">2 hours ago.<a href="#" class="text-muted">tuesday</a></small>
+              </h4></div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<br>
+<hr>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>AVATAR SCHOOL</mat-card-title>
+      <mat-card-subtitle>OOTY</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/stan.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      
+    </mat-card-actions>
+  </mat-card>
+  <br>
+  <hr>
+
+   <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>AVATAR SCHOOL</mat-card-title>
+      <mat-card-subtitle>SELAM</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="../../assets/ssvm.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      
+    </mat-card-actions>
+  </mat-card>
+
+
+  <h1>{{ title }}</h1>
+
+  <!-- this creates a google map on the page with the given lat/lng from -->
+  <!-- the component as the initial center of the map: -->
+  <agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>

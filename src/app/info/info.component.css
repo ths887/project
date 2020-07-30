@@ -1,0 +1,24 @@
+div {
+    
+    display: flex;
+}
+div h3{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 100px;
+    color: rgb(122, 67, 50);
+
+}
+.bar1{
+    margin-left: 50px;
+    height: 20px;
+    width: 80%;
+    background: #ddd;
+}
+.second{
+    height: 20px;
+    background: green;
+}

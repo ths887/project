@@ -1,0 +1,46 @@
+<h5>SUBJECTS AND FEE</h5>
+<hr>
+
+<table id="user">
+    <tr>
+        <th *ngFor = "let column of header">
+            {{column}}
+        </th>
+    </tr>
+
+    <tr *ngFor = "let row of rows">
+        <td *ngFor = "let column of header">
+            {{row[column]}}
+        </td>
+    </tr>
+</table>
+
+
+<hr>
+<h5>HIGHER SCHOOL COURSES AND FEE</h5>
+<hr>
+
+<table id="user">
+    <tr>
+        <th *ngFor = "let column of headers">
+            {{column}}
+        </th>
+    </tr>
+
+    <tr *ngFor = "let row of rowss">
+        <td *ngFor = "let column of header">
+            {{row[column]}}
+        </td>
+    </tr>
+</table>
+
+
+<hr>
+
+<mat-chip-list aria-label="Fish selection">
+    <mat-chip color="primary" selected >FRESHERS FUNCTION </mat-chip>
+    <mat-chip color="accent" selected>ANNUALDAY</mat-chip>
+    <mat-chip color="primary" selected>ATHLETICS</mat-chip>
+    <mat-chip color="accent" selected>WEAK END FUNCTIONS</mat-chip>
+  </mat-chip-list>
+  

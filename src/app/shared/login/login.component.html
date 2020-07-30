@@ -1,0 +1,31 @@
+<div class="col-sm-3">
+    <form [formGroup]="form">
+        <div class="form-group">
+            <label for="usernameInput">Email</label>
+            <input type="email"  formControlName="username" class="form-control" id="usernameInput" placeholder="Enter email id">
+        </div>
+        <div class="form-group">
+            <label for="passwordInput">Password</label>
+            <input type="password"  class="form-control" formControlName="password" id="passwordInput" placeholder="Enter password">
+        </div>
+        <div class="form-group">
+            <label for="conpassInput">conform password</label>
+            <input type="conpassword"  class="form-control" forControlName="conformpassword" id="conpassInput" placeholder="Enter conform password">
+        </div>
+        <button href="/" type="submit" class="btn btn-primary">Submit</button>
+        <br><br>
+        <hr>
+        <div class="validators" *ngIf="form.touched">
+            <span>
+                <i class="fa fa-check-circle" style="color: green;" *ngIf="form.controls.username.valid"></i>
+                <i class="fa fa-times-cirlcle" style="color: firebrick;" *ngIf="form.controls.username.valid"></i>
+                 username should be minimum 8 charector
+                </span>
+            <span>
+                 <i class="fa fa-check-circle" style="color: green;" *ngIf="form.controls.conformpassword.valid"></i>
+                 <i class="fa fa-times-cirlcle" style="color: firebrick;" *ngIf="form.controls.conformpassword.valid"></i>
+                 password and conform password should match 
+            </span>
+        </div>
+    </form>
+</div>

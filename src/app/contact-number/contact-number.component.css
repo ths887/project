@@ -1,0 +1,53 @@
+.main{
+    background-image: url('../../assets/ssvm.jpg');
+    width: 100%;
+    height: 500px;
+}
+.container{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background-color: white;
+}
+.content img{
+   margin-left: 220px;
+    width: 100px;
+    height: 100px;
+}
+
+.mat-card{
+    width: 50%;
+    background-color: yellowgreen;
+}
+h5{
+    text-align: center;
+    color: rgb(56, 14, 56);
+}
+#user{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#user td, #user th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#user tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}
+#user tr:hover {
+    background-color: #ddd;
+}
+#user th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(41, 12, 68);
+    color: white;
+}
+.row{
+    margin-left: 400px;
+    color: blueviolet;
+}
